@@ -51,7 +51,7 @@ export default new Vuex.Store({
     },
 
     updateBlogTitle(state, payload) {
-      state.blogPhotoName = payload;
+      state.blogTitle = payload;
     },
     
     createFileURL(state, payload) {
